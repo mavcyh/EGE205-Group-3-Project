@@ -5,7 +5,6 @@ from flask_socketio import SocketIO
 from flask_socketio import emit
 from sqlalchemy import create_engine
 
-
 app = Flask(__name__)
 socketio = SocketIO(app, async_mode='eventlet')
 
