@@ -14,4 +14,4 @@ def index():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    wsgi.server(eventlet.listen(("192.168.X.X", 5000)), app)
+    wsgi.server(eventlet.listen(("192.168.88.14", 5000)), app)
